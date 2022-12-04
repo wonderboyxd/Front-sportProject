@@ -1,0 +1,43 @@
+.auth-warning{
+  max-width: 350px;
+  background: #F0B849;
+  border-radius: 16px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  padding: 16px;
+  &__icon{
+    width: 30px;
+    margin-top: 8px;
+    img {
+      width: 100%;
+    }
+  }
+  &__text{
+    max-width: 260px;
+    width: 100%;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 400;
+    p {
+      margin: 0;
+      padding: 0;
+    }
+  }
+  &__button{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 3%;
+    top: 4%;
+    cursor: pointer;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

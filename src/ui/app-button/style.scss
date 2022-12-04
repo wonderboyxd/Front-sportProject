@@ -1,0 +1,12 @@
+.button{
+  max-width: 250px;
+  background: none;
+  border: none;
+  background: #5FB6A6;
+  border-radius: 8px;
+  &__title{
+    color: #FFFFFF;
+    padding: 16px;
+    font-family: sans-serif;
+  }
+}

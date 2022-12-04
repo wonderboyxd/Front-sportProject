@@ -1,0 +1,33 @@
+.app-checkbox{
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0;
+  input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    background: #FFFFFF;
+    border: 2px solid #E4E4E4;
+    border-radius: 5px;
+  }
+  label{
+    max-width: 180px;
+    padding: 0 8px;
+    font-family: sans-serif;
+  }
+  input[type=checkbox]:checked{
+    border: 2px solid #5FB6A6;
+    border-radius: 5px;
+    background: url("@/assets/filter-button/checkbox-arrow-down.svg") 50% no-repeat;
+  }
+  input[type=checkbox]:checked + label{
+    color: #5FB6A6;
+  }
+  .active-input{
+    border: 2px solid #5FB6A6;
+    border-radius: 5px;
+    background: url("@/assets/filter-button/checkbox-arrow-down.svg") 50% no-repeat;
+  }
+}
+
